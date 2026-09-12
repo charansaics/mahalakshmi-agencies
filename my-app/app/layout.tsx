@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mahalakshmi Auto Agencies | SML ISUZU Dealer",
+  title: "Mahalakshmi Auto Agency | SML ISUZU Dealer",
   description:
     "Authorized SML ISUZU dealer for sales, service, and spares in Visakhapatnam, Vizianagaram, and Srikakulam.",
   icons: {

@@ -5,7 +5,7 @@ export function Footer() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl text-sm leading-6 text-slate-300 sm:text-base sm:leading-7">
             <p>
-              Disclaimer: Mahalakshmi Auto Agencies is the only authorized SML ISUZU dealer in
+              Disclaimer: Mahalakshmi Auto Agency is the only authorized SML ISUZU dealer in
               Visakhapatnam for sales, spare, and service.
             </p>
             <p className="mt-2">SML ISUZU logo and proprietary images are used with permission.</p>
@@ -14,7 +14,7 @@ export function Footer() {
           <div className="text-sm text-slate-300">
             <a href="#" className="text-slate-300 hover:text-white">Privacy Policy</a>
             <span className="mx-3 text-slate-500">•</span>
-            <span>© {new Date().getFullYear()} Mahalakshmi Auto Agencies</span>
+            <span>© {new Date().getFullYear()} Mahalakshmi Auto Agency</span>
           </div>
         </div>
       </div>

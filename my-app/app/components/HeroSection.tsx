@@ -21,7 +21,7 @@ export function HeroSection() {
               </div>
 
               <h2 className="text-[1.9rem] font-black leading-[1.04] tracking-tight sm:text-5xl lg:text-6xl">
-                Mahalakshmi Auto Agencies
+                Mahalakshmi Auto Agency
               </h2>
 
               <p className="mt-4 max-w-lg text-sm leading-6 text-slate-200 sm:mt-6 sm:text-base lg:text-lg lg:leading-8">

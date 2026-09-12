@@ -22,7 +22,7 @@ export function Header() {
             <div className="flex shrink-0 items-center justify-center overflow-hidden rounded-xl border border-orange-200 bg-white px-1.5 py-1 shadow-sm sm:px-2">
               <img
                 src="https://www.mahalakshmiautoagencies.com/assets/images/SML_ISUZU_LIMITED.jpg"
-                alt="Mahalakshmi Auto Agencies logo"
+                alt="Mahalakshmi Auto Agency logo"
                 className="h-7 w-7 object-contain sm:h-10 sm:w-10"
               />
             </div>
@@ -31,7 +31,7 @@ export function Header() {
                 Exclusive showroom
               </p>
               <h1 className="truncate max-w-[9rem] text-[0.42rem] font-black tracking-[-0.04em] text-slate-900 sm:max-w-none sm:text-sm lg:text-lg">
-                MAHALAKSHMI AUTO AGENCIES
+                MAHALAKSHMI AUTO AGENCY
               </h1>
             </div>
           </div>
