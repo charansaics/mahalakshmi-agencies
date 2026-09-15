@@ -7,13 +7,13 @@ const stats = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="bg-[#fffaf3] py-14 sm:py-20">
+    <section id="about" className="bg-[#f5f4f2] py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-orange-700">About us</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#c91430]">About us</p>
             <h3 className="mt-4 text-2xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              Authorized SML ISUZU Dealer for Sales, Service, and Spares.
+              Authorized SML Mahindra Dealer for Sales, Service, and Spares.
             </h3>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
               We serve transporters, fleet operators, and business owners across the region with a
@@ -25,18 +25,18 @@ export function AboutSection() {
             </p>
           </div>
 
-          <div className="rounded-[2rem] border border-orange-100 bg-white p-5 shadow-[0_18px_50px_rgba(249,115,22,0.08)] sm:p-6">
+          <div className="rounded-[2rem] border border-[#dedddb] bg-white p-5 shadow-[0_18px_50px_rgba(36,36,36,0.08)] sm:p-6">
             <div className="space-y-5 sm:space-y-6">
               {stats.map((item) => (
                 <div
                   key={item.label}
-                  className="flex items-end justify-between gap-4 border-b border-orange-100 pb-4 last:border-b-0 last:pb-0"
+                  className="flex items-end justify-between gap-4 border-b border-[#dedddb] pb-4 last:border-b-0 last:pb-0"
                 >
                   <div>
                     <div className="text-2xl font-black text-slate-900 sm:text-3xl">{item.value}</div>
                     <div className="mt-1 text-sm font-medium text-slate-600">{item.label}</div>
                   </div>
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-100 text-lg text-orange-700">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#fbe7ea] text-lg text-[#c91430]">
                     ✓
                   </div>
                 </div>

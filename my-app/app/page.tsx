@@ -10,7 +10,7 @@ import { ServicesSection } from "./components/ServicesSection";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#fffaf3] text-slate-900">
+    <div className="min-h-screen bg-[#f5f4f2] text-[#242424]">
       <Header />
       <main className="overflow-x-hidden">
         <HeroSection />

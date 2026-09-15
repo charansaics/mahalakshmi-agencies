@@ -11,7 +11,7 @@ export function DeliverySection() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-center lg:gap-10">
           <div className="rounded-[2rem] border border-white/20 bg-white/5 p-4 backdrop-blur-[2px] shadow-[0_18px_40px_rgba(15,23,42,0.2)] sm:p-6">
-            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-orange-300">Delivery</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#ffb8c2]">Delivery</p>
             <h3 className="mt-4 text-2xl font-black tracking-tight text-white sm:text-4xl">
               Fast, reliable support from enquiry to delivery.
             </h3>
@@ -23,7 +23,7 @@ export function DeliverySection() {
                 "Responsive after-sales service with genuine spare support.",
               ].map((point, index) => (
                 <div key={point} className="flex gap-4 rounded-2xl border border-white/10 bg-white/6 p-4 text-white shadow-sm backdrop-blur-sm">
-                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-orange-500 font-bold text-white">
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[#ed1b3b] font-bold text-white">
                     {index + 1}
                   </div>
                   <p className="text-base leading-7 text-slate-100">{point}</p>

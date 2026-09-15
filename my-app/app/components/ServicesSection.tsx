@@ -3,21 +3,21 @@ const services = [
     title: "Sales",
     description:
       "Explore high-performance BS-VI buses, trucks, and ambulances built for efficiency and operational reliability.",
-    accent: "bg-orange-100 text-orange-700",
+    accent: "bg-[#fbe7ea] text-[#c91430]",
     icon: "sales",
   },
   {
     title: "Service",
     description:
       "Professional maintenance, diagnostics, and after-sales care guided by trained technicians and support teams.",
-    accent: "bg-orange-50 text-orange-700",
+    accent: "bg-[#f5f4f2] text-[#c91430]",
     icon: "service",
   },
   {
     title: "Spares",
     description:
       "Genuine parts and accessories to maintain your fleet with quality, consistency, and long-term durability.",
-    accent: "bg-amber-100 text-amber-700",
+    accent: "bg-[#e9e8e6] text-[#4a4a49]",
     icon: "spares",
   },
 ];
@@ -53,10 +53,10 @@ function ServiceIcon({ type }: { type: "sales" | "service" | "spares" }) {
 
 export function ServicesSection() {
   return (
-    <section id="services" className="bg-[#fff5ec] py-14 text-slate-900 sm:py-20">
+    <section id="services" className="bg-[#e9e8e6] py-14 text-[#242424] sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8 max-w-3xl sm:mb-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-orange-700">Our offerings</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#c91430]">Our offerings</p>
           <h3 className="mt-4 text-2xl font-black tracking-tight sm:text-4xl">
             Sales, service, and spares under one roof.
           </h3>
@@ -66,13 +66,13 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <article
               key={service.title}
-              className="group relative flex h-full flex-col overflow-hidden rounded-[1.5rem] border border-orange-100 bg-white p-5 shadow-[0_18px_48px_rgba(249,115,22,0.08)] transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-[0_22px_50px_rgba(249,115,22,0.12)] sm:rounded-[2rem] sm:p-6"
+              className="group relative flex h-full flex-col overflow-hidden rounded-[1.5rem] border border-[#dedddb] bg-white p-5 shadow-[0_18px_48px_rgba(36,36,36,0.08)] transition duration-300 hover:-translate-y-1 hover:border-[#ed1b3b] hover:shadow-[0_22px_50px_rgba(36,36,36,0.12)] sm:rounded-[2rem] sm:p-6"
             >
               <div className="mb-5 flex items-center justify-between sm:mb-6">
                 <div className={`flex h-12 w-12 items-center justify-center rounded-2xl sm:h-14 sm:w-14 ${service.accent}`}>
                   <ServiceIcon type={service.icon as "sales" | "service" | "spares"} />
                 </div>
-                <span className="text-[0.62rem] font-bold uppercase tracking-[0.26em] text-orange-700 sm:text-xs">
+                <span className="text-[0.62rem] font-bold uppercase tracking-[0.26em] text-[#c91430] sm:text-xs">
                   0{index + 1}
                 </span>
               </div>
@@ -80,7 +80,7 @@ export function ServicesSection() {
               <h4 className="text-xl font-black text-slate-900 sm:text-2xl">{service.title}</h4>
               <p className="mt-3 flex-1 text-sm leading-7 text-slate-600 sm:text-base">{service.description}</p>
 
-              <div className="mt-5 inline-flex items-center text-sm font-semibold text-orange-700 sm:mt-6">
+              <div className="mt-5 inline-flex items-center text-sm font-semibold text-[#c91430] sm:mt-6">
                 Learn more <span className="ml-2 transition group-hover:translate-x-1">→</span>
               </div>
             </article>

@@ -111,7 +111,7 @@ export const salesModels: VehicleModel[] = [
     id: "hiroi-school-bus",
     name: "Hiroi School Bus",
     image: "/vehicles/hiroi-school-bus.jpg",
-    summary: "A trusted school mobility model aligned with the SML ISUZU transport range.",
+    summary: "A trusted school mobility model aligned with the SML Mahindra transport range.",
     description:
       "The Hiroi School Bus delivers a reliable school transportation experience with durable construction and practical comfort for daily route operations.",
     specs: [
