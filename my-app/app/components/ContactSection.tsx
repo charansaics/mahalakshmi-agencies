@@ -39,7 +39,7 @@ export function ContactSection() {
                 </li>
                 <li>
                   <a href="tel:+917799904568" className="hover:text-[#c91430]">
-                    +91-7799904568
+                    +917799904568
                   </a>
                 </li>
               </ul>
