@@ -22,8 +22,8 @@ export function ContactSection() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+917799904562" className="hover:text-[#c91430]">
-                    +91-7799904562
+                  <a href="tel:+917799904569" className="hover:text-[#c91430]">
+                    +917799904569
                   </a>
                 </li>
               </ul>
@@ -38,8 +38,8 @@ export function ContactSection() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+917799904561" className="hover:text-[#c91430]">
-                    +91-7799904561
+                  <a href="tel:+917799904568" className="hover:text-[#c91430]">
+                    +91-7799904568
                   </a>
                 </li>
               </ul>
